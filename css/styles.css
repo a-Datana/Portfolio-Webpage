@@ -1,0 +1,920 @@
+
+.responsive_font-size-25px {
+    font-size: clamp(5px, 1.302084vmax, 30px)
+  }
+
+  .responsive_font-size-30px {
+    font-size: clamp(10px, 1.5625vmax, 35px)
+  }
+
+  .responsive_font-size-35px {
+    font-size: clamp(15px, 1.82291vmax, 40px)
+  }
+
+  .responsive_font-size-40px {
+    font-size: clamp(20px, 2.0833vmax, 45px)
+  }
+
+  .responsive_font-size-60px {
+    font-size: clamp(40px, 3.125vmax, 65px)
+  }
+
+  .responsive_font-size-80px {
+    font-size: clamp(60px, 4.166666vmax, 85px)
+  }
+
+  body {
+    background: #fff
+  }
+  .header-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 15px;
+    margin: 0
+  }
+
+  .responsive_font-size-25px {
+    font-size: clamp(5px, 1.302084vmax, 30px)
+  }
+
+  .responsive_font-size-30px {
+    font-size: clamp(10px, 1.5625vmax, 35px)
+  }
+
+  .responsive_font-size-35px {
+    font-size: clamp(15px, 1.82291vmax, 40px)
+  }
+
+  .responsive_font-size-40px {
+    font-size: clamp(20px, 2.0833vmax, 45px)
+  }
+
+  .responsive_font-size-60px {
+    font-size: clamp(40px, 3.125vmax, 65px)
+  }
+
+  .responsive_font-size-80px {
+    font-size: clamp(60px, 4.166666vmax, 85px)
+  }
+
+  button {
+    margin: 0 8px;
+    background: transparent;
+    border: 0;
+    font-family: Lexend Deca, sans-serif, regular;
+    padding: 1.042vw
+  }
+
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+  }
+
+  img {
+    height: 50px;
+    width: auto;
+    margin-left: 15px
+  }
+
+  .container {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-self: center
+  }
+
+  .responsive_font-size-25px {
+    font-size: clamp(5px, 1.302084vmax, 30px)
+  }
+
+  .responsive_font-size-30px {
+    font-size: clamp(10px, 1.5625vmax, 35px)
+  }
+
+  .responsive_font-size-35px {
+    font-size: clamp(15px, 1.82291vmax, 40px)
+  }
+
+  .responsive_font-size-40px {
+    font-size: clamp(20px, 2.0833vmax, 45px)
+  }
+
+  .responsive_font-size-60px {
+    font-size: clamp(40px, 3.125vmax, 65px)
+  }
+
+  .responsive_font-size-80px {
+    font-size: clamp(60px, 4.166666vmax, 85px)
+  }
+
+  p {
+    margin: 0;
+    padding: 0
+  }
+
+  .full-screen-width {
+    display: flex;
+    width: -webkit-fill-available;
+    width: fill
+  }
+
+  img {
+    overflow-y: hidden;
+    width: -webkit-fill-available;
+    width: fill;
+    height: auto
+  }
+
+  .header-bg_img {
+    position: relative;
+    background-image: url(istockphoto-879012314-2048x2048.01c4f16115856796.png);
+    width: 100%;
+    height: 90.716vh;
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    display: flex
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    width: 56.012187vmax
+  }
+
+  .right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 35.7878125vmax;
+    justify-content: center;
+    top: 34px
+  }
+
+  .top {
+    font-family: antonio, regular;
+    color: #fff;
+    padding: 0
+  }
+
+  .center {
+    font-family: antonio, regular;
+    color: #fff
+  }
+
+  .bottom {
+    font-family: lexend deca, regular;
+    color: #fff;
+    margin-top: 4.48239vh
+  }
+
+  .textbox {
+    display: flex;
+    justify-content: center;
+    margin: 4vh 7vw 1vh
+  }
+
+  .responsive_font-size-25px {
+    font-size: clamp(5px, 1.302084vmax, 30px)
+  }
+
+  .responsive_font-size-30px {
+    font-size: clamp(10px, 1.5625vmax, 35px)
+  }
+
+  .responsive_font-size-35px {
+    font-size: clamp(15px, 1.82291vmax, 40px)
+  }
+
+  .responsive_font-size-40px {
+    font-size: clamp(20px, 2.0833vmax, 45px)
+  }
+
+  .responsive_font-size-60px {
+    font-size: clamp(40px, 3.125vmax, 65px)
+  }
+
+  .responsive_font-size-80px {
+    font-size: clamp(60px, 4.166666vmax, 85px)
+  }
+
+  p {
+    font-family: lexend deca, regular;
+    font-size: clamp(10px, 2.6vmin, 25px);
+    font-weight: 300;
+    width: 70.9375vw;
+    min-width: 300px;
+    text-align: center
+  }
+
+  .wrapper {
+    margin: 40px 7vw 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column
+  }
+
+  .responsive_font-size-25px {
+    font-size: clamp(5px, 1.302084vmax, 30px)
+  }
+
+  .responsive_font-size-30px {
+    font-size: clamp(10px, 1.5625vmax, 35px)
+  }
+
+  .responsive_font-size-35px {
+    font-size: clamp(15px, 1.82291vmax, 40px)
+  }
+
+  .responsive_font-size-40px {
+    font-size: clamp(20px, 2.0833vmax, 45px)
+  }
+
+  .responsive_font-size-60px {
+    font-size: clamp(40px, 3.125vmax, 65px)
+  }
+
+  .responsive_font-size-80px {
+    font-size: clamp(60px, 4.166666vmax, 85px)
+  }
+
+  h1 {
+    text-align: center;
+    font-family: Antonio, sans-serif;
+    font-weight: 600;
+    padding: 20px
+  }
+
+  .bg-img {
+    position: relative;
+    background-image: url(1000_F_97463619_ZHqQiR70xv5HRiTJlkfyetkzxrmezDtP.47116e7ba5e0f239.png);
+    width: 100%;
+    height: 59.6vh;
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around
+  }
+
+  p {
+    font-family: lexend deca, regular
+  }
+
+  .team>p {
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+    padding: 0
+  }
+
+  .team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 2
+  }
+
+  .team>img {
+    max-height: 120px
+  }
+
+  .versus {
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    flex: 1
+  }
+
+  .wrapper {
+    margin: 4vh 7vw 0;
+    position: relative;
+    display: flex;
+    flex-direction: column
+  }
+
+  h1 {
+    text-align: center;
+    font-family: Antonio, sans-serif
+  }
+
+  .responsive_font-size-25px {
+    font-size: clamp(5px, 1.302084vmax, 30px)
+  }
+
+  .responsive_font-size-30px {
+    font-size: clamp(10px, 1.5625vmax, 35px)
+  }
+
+  .responsive_font-size-35px {
+    font-size: clamp(15px, 1.82291vmax, 40px)
+  }
+
+  .responsive_font-size-40px {
+    font-size: clamp(20px, 2.0833vmax, 45px)
+  }
+
+  .responsive_font-size-60px {
+    font-size: clamp(40px, 3.125vmax, 65px)
+  }
+
+  .responsive_font-size-80px {
+    font-size: clamp(60px, 4.166666vmax, 85px)
+  }
+
+  .stats {
+    width: 757px
+  }
+
+  h1.tdm {
+    text-align: center;
+    font-family: Antonio, sans-serif;
+    font-weight: 600
+  }
+
+  h1.stats {
+    font-weight: 500;
+    padding-bottom: 10.2vh
+  }
+
+  .stats>td {
+    padding: 0
+  }
+
+  .team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 5vw;
+    flex-wrap: wrap
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row
+  }
+
+  .coloumn {
+    flex-direction: column;
+    justify-content: space-evenly
+  }
+
+  .team-stats {
+    display: flex;
+    font-family: Lexend Deca, sans-serif;
+    font-weight: 400;
+    align-items: center;
+    padding-right: 10px
+  }
+
+  .kategorien,
+  .werte {
+    white-space: nowrap
+  }
+
+  table {
+    border-spacing: 1vw 1.4vh
+  }
+
+  .team-img {
+    align-self: center
+  }
+
+  img {
+    width: 40vmax;
+    padding: 0
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 99%;
+    vertical-align: baseline;
+    font-weight: 400
+  }
+
+  .wrapper {
+    margin: 11vh 7vw 0;
+    position: relative;
+    display: flex;
+    flex-direction: column
+  }
+
+
+  .spieltag {
+    font-family: Antonio, sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 3px
+  }
+
+  p.spieltag_no {
+    font-family: Antonio, sans-serif;
+    font-weight: 600;
+    margin: 0 0 4vh;
+    padding-right: 23px
+  }
+
+  h1 {
+    text-align: center;
+    font-family: Antonio, sans-serif
+  }
+
+  h1.title {
+    text-align: center;
+    font-family: Antonio, sans-serif;
+    font-weight: 600;
+    padding: 20px
+  }
+
+  button>img {
+    min-width: 3vw;
+    max-width: 8vw;
+    width: 50%;
+    margin: auto
+  }
+
+  button {
+    border: 0;
+    height: 8vmax;
+    object-fit: cover;
+    width: auto;
+    background: none;
+    cursor: pointer
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row
+  }
+
+  .coloumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+  }
+
+  .slider {
+    display: flex;
+    flex-direction: column;
+    height: -moz-fit-content;
+    height: fit-content
+  }
+
+  .slider-header {
+    justify-content: space-between;
+    align-items: center !important
+  }
+
+  div.date {
+    display: flex;
+    justify-content: left
+  }
+
+  p.date {
+    justify-self: center;
+    align-self: center;
+    font-family: Lexend Deca, sans-serif;
+    font-weight: 300;
+    padding: 0 0 22px 2px;
+    margin: 0
+  }
+
+  .slide_list-container {
+    position: relative;
+    display: flex
+  }
+
+  .slide_list {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none
+  }
+
+  .slide {
+    position: relative;
+    top: 0;
+    bottom: 0
+  }
+
+  .no-wrap {
+    white-space: nowrap;
+    gap: 1px
+  }
+
+  .game {
+    height: 4.725vmax;
+    min-height: 55px;
+    width: auto;
+    padding: .7875vmax;
+    margin: 1.575vh 0;
+    justify-content: space-between;
+    background: #2EA9D6 0% 0% no-repeat padding-box;
+    border-radius: 15px;
+    font-family: lexend deca, regular;
+    font-weight: 400;
+    color: #fff
+  }
+
+  .close {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+  }
+
+  .time {
+    margin-right: 10px;
+    font-weight: 400
+  }
+
+  .challenger-name {
+    margin: 0 10px;
+    flex: 4;
+    flex-grow: 1;
+    text-align: end
+  }
+
+  .standing {
+    margin: 0 2vw
+  }
+
+  .challenged-name {
+    margin: 0 10px;
+    flex: 4;
+    flex-grow: 1;
+    text-align: start
+  }
+
+  .wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 4vh 7vw 1vh
+  }
+
+  .responsive_font-size-25px {
+    font-size: clamp(5px, 1.302084vmax, 30px)
+  }
+
+  .responsive_font-size-30px {
+    font-size: clamp(10px, 1.5625vmax, 35px)
+  }
+
+  .responsive_font-size-35px {
+    font-size: clamp(15px, 1.82291vmax, 40px)
+  }
+
+  .responsive_font-size-40px {
+    font-size: clamp(20px, 2.0833vmax, 45px)
+  }
+
+  .responsive_font-size-60px {
+    font-size: clamp(40px, 3.125vmax, 65px)
+  }
+
+  .responsive_font-size-80px {
+    font-size: clamp(60px, 4.166666vmax, 85px)
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row
+  }
+
+  .coloumn {
+    display: flex;
+    flex-direction: column
+  }
+
+  h1 {
+    text-align: center;
+    font-family: Antonio, sans-serif
+  }
+
+  .header>h1 {
+    font-weight: 600;
+    padding: 0;
+    margin: 3vh 0
+  }
+
+  .header {
+    position: relative;
+    justify-content: center
+  }
+
+  .news-list {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    height: -moz-fit-content;
+    height: fit-content
+  }
+
+  .news {
+    padding: 3px;
+    margin: 0;
+    width: 32%;
+    font-family: lexend deca, regular;
+    font-weight: 300
+  }
+
+  .news>img {
+    position: relative;
+    padding: 3px;
+    margin: 0
+  }
+
+  img {
+    width: 100%;
+    height: 15vmax;
+    object-fit: cover
+  }
+
+  .teaser {
+    padding: 0 8px
+  }
+
+  .mehr_erfahren {
+    display: flex;
+    font-family: lexend deca, regular;
+    font-weight: 500;
+    justify-content: flex-end
+  }
+
+  button {
+    position: relative;
+    background: none;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 0;
+    padding: .6vmax 1.3vmax
+  }
+
+  button:hover {
+    background: #2EA9D6;
+    border: 2px solid #2EA9D6;
+    color: #fff
+  }
+
+  .wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 4vh 7vw 1vh;
+    align-items: center
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row
+  }
+
+  .coloumn {
+    display: flex;
+    flex-direction: column
+  }
+
+  h1 {
+    text-align: center;
+    font-family: Antonio, sans-serif;
+    font-size: clamp(25px, 6.38vmin, 70px)
+  }
+
+  .list {
+    position: relative;
+    width: 100%;
+    padding: 3px;
+    margin: 0;
+    justify-content: space-between
+  }
+
+  .partner {
+    display: flex;
+    width: 27.0833333vw;
+    height: 32.018vh
+  }
+
+  .img {
+    background: #c7c7c7;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+
+  img {
+    height: 75%;
+    width: 75%;
+    object-fit: contain
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 99%;
+    vertical-align: baseline;
+    font-weight: 400
+  }
+
+  .wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 82px 253px 0
+  }
+
+  .footer {
+    display: flex;
+    background-color: #8d8d8d;
+    border: none;
+    font-family: lexend deca, regular;
+    color: #fff;
+    margin: 100px 0 0;
+    height: 593px
+  }
+
+  .responsive_font-size-25px {
+    font-size: clamp(5px, 1.302084vmax, 30px)
+  }
+
+  .responsive_font-size-30px {
+    font-size: clamp(10px, 1.5625vmax, 35px)
+  }
+
+  .responsive_font-size-35px {
+    font-size: clamp(15px, 1.82291vmax, 40px)
+  }
+
+  .responsive_font-size-40px {
+    font-size: clamp(20px, 2.0833vmax, 45px)
+  }
+
+  .responsive_font-size-60px {
+    font-size: clamp(40px, 3.125vmax, 65px)
+  }
+
+  .responsive_font-size-80px {
+    font-size: clamp(60px, 4.166666vmax, 85px)
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row
+  }
+
+  .coloumn {
+    display: flex;
+    flex-direction: column
+  }
+
+  .break {
+    flex-basis: 100%;
+    height: 0px;
+    width: 0px
+  }
+
+  .wrap {
+    display: flex;
+    flex-wrap: wrap
+  }
+
+  .head {
+    font-family: lexend deca, regular;
+    font-weight: 300;
+    width: 100%;
+    background: rgba(162, 141, 255, .4784313725)
+  }
+
+  .dpsb {
+    text-align: left;
+    background-color: #7fffd4;
+    flex: 5
+  }
+
+  .location {
+    padding-top: 46px
+  }
+
+  .email {
+    padding-top: 49px
+  }
+
+  .icon {
+    width: 37px;
+    height: 46px;
+    padding-right: 30.39px
+  }
+
+  img {
+    width: 100%;
+    color: #2ea9d6
+  }
+
+  .legal {
+    padding-top: 84px;
+    gap: 34px
+  }
+
+  .nav {
+    text-align: center;
+    flex: 2
+  }
+
+  .partner {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0ff;
+    flex: 5
+  }
+
+  .partner-logo {
+    height: 42px;
+    width: 111px;
+    margin: 30px;
+    padding: 0;
+    background-color: #fff;
+    border: #8d8d8d
+  }
+
+  .header-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: -moz-fit-content;
+    height: fit-content;
+    max-width: 100vw;
+    max-height: 20vh;
+    min-height: 30px;
+    padding: 0 12px;
+    margin: 0
+  }
+
+  .responsive_font-size-25px {
+    font-size: clamp(5px, 1.302084vmax, 30px)
+  }
+
+  .responsive_font-size-30px {
+    font-size: clamp(10px, 1.5625vmax, 35px)
+  }
+
+  .responsive_font-size-35px {
+    font-size: clamp(15px, 1.82291vmax, 40px)
+  }
+
+  .responsive_font-size-40px {
+    font-size: clamp(20px, 2.0833vmax, 45px)
+  }
+
+  .responsive_font-size-60px {
+    font-size: clamp(40px, 3.125vmax, 65px)
+  }
+
+  .responsive_font-size-80px {
+    font-size: clamp(60px, 4.166666vmax, 85px)
+  }
+
+  .sticky-bottom {
+    position: fixed;
+    z-index: 420;
+    left: -5px;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: -5px -5px 25px -5px #8b8b8b
+  }
+
+  .vertical-row {
+    height: 100px;
+    width: 4px;
+    border: 2px;
+    max-height: 12.5vh;
+    border-radius: 10px;
+    margin: 4px;
+    background-color: #1f1f1f;
+    border-color: #1f1f1f
+  }
+
+  .logo {
+    max-width: 80vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+
+  img {
+    max-height: 90%;
+    width: 80%;
+    height: 80%;
+    object-fit: contain
+  }
