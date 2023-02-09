@@ -1,5 +1,5 @@
 
-.responsive_font-size-25px {
+  .responsive_font-size-25px {
     font-size: clamp(5px, 1.302084vmax, 30px)
   }
 
