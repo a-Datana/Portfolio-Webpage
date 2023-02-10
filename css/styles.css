@@ -5,12 +5,21 @@ font-family: 'Roboto', sans-serif;
 ----*/
 
 /*----General----*/
+
+
 p {
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.linebreak {
+  height: clamp(5px, 0.5235516452vmax, 15px);
+  border: none;
 }
 
 .wrapper {
-  margin: 11vh 7vw 0;
+  margin: 3vh 7vw 0;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -18,11 +27,16 @@ p {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
   padding: 0;
+}
+
+.responsive_font-size-10px {
+  font-size: clamp(3px, 0.8vmax, 15px)
 }
 
 .responsive_font-size-25px {
@@ -51,43 +65,11 @@ body {
 
 /*----Navbar----*/
 
-.header-wrapper {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.header-image {
-  height: 50px;
-  width: auto;
-  margin-left: 15px;
-}
-
-.header-buttons {
-  display: flex;
-  align-items: center;
-  justify-content: right;
-  padding-right: 15px;
-  margin: 0;
-}
-
-button {
-  margin: 0 8px;
-  background: transparent;
-  border: 0;
-  font-family: Lexend Deca, sans-serif, regular;
-  padding: 1.042vw;
-}
-
 .navbar {
-  background-color: #fff;
+  background-color: rgb(0, 71, 179);
   position: fixed;
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  background-color: none;
   width: 100%;
   z-index: 1;
 }
@@ -100,7 +82,87 @@ button {
   margin-right: 15%;
 }
 
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+section {
+  padding: 1rem;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header-image {
+  height: 50px;
+  width: auto;
+  margin-left: 15px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 15px;
+  margin: 0;
+}
+
+.header-nav a {
+  margin: 0 8px;
+  background: transparent;
+  color: #fff;
+  border: 0;
+  font-family: Lexend Deca, sans-serif, regular;
+  padding: 1.042vw;
+}
+
 /*----Items----*/
+
+.about_table {
+display: flex;
+flex: auto;
+justify-content: space-around;
+}
+
+.table_head {
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+padding: 7px;
+margin: 10px;
+width: 100%;
+}
+
+.table_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.table_content li {
+    list-style: none;
+    border: solid 1px white;
+    padding: 5px;
+    margin: 5px;
+    background-color: #DDDDB7;
+}
 
 .container {
   display: flex;
@@ -112,40 +174,119 @@ button {
 .vorstellung {
   font-family: 'lexend deca', sans-serif;
   text-align: center;
+  color: #f2f2f2;
 }
 
-.vorstellung {
-  font-family:antonio, serif;
+form input[type="submit"] {
+  width: auto;
+}
+
+#about {
+  background-color: lightgray;
+}
+
+#projects {
+  background-color: lightblue;
+}
+
+#contact {
+  background-color: lightgreen;
+}
+
+form {
+  width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+label,
+input,
+textarea {
+  font-size: 18px;
+  margin-bottom: 20px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: auto;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
 }
 
 /*----Positional Tags----*/
 
+
 .left {
+  position: relative;
   display: flex;
   flex-direction: column;
-  width: 56.012187vmax;
+  align-items: flex-start;
+
 }
 
 .right {
   position: relative;
   display: flex;
+  align-items: flex-end;
   flex-direction: column;
-  width: 35.7878125vmax;
 }
 
+.just_center {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.align_center {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide {
+  min-height: 100vh;
+  width: 100%;
+  background-color: transparent;
+}
+
+.space_evenly {
+  display:flex;
+  justify-content: space-evenly;
+}
 /*----Logo n Banner----*/
 
 .header-bg_img {
-  position: relative;
-  background-image: url(img\black-g8628045c4_1920.jpg);
-  width: 100%;
-  height: 90.716vh;
-  min-height: 300px;
+  background-image: url(/img/bg-black.jpg);
   background-size: cover;
-  background-position: center;
-  margin: 0 auto;
+  width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.7);
 }
+
 
 /*----Links----*/
 a {
@@ -155,5 +296,5 @@ a {
 }
 
 a-hover {
-  color: #000000;
+  color: #aaaaaa;
 }
